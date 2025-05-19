@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>MdJs</title>
+  <link rel="shortcut icon" type="image/png" href="favicon.png">
+  <link rel="stylesheet" href="vendor/mdjs.css">
+</head>
+<body>
+<div class="contents">
+  <!-- 侧边栏 -->
+  <div class="sidebar">
+    <div class="sidebar-inner">
+      <h1><a href="/">MdJs</a></h1>
+      <!-- 搜索框 -->
+      <div class="search-box">
+        <input type="text" class="search-input" placeholder="没用的搜索..." id="search-input">
+      </div>
+      <!-- 导航菜单 -->
+      <div class="sidebar-page" id="sidebar-page"></div>
+    </div>
+  </div>
+  <!-- 汉堡按钮 -->
+  <button class="hamburger-button" id="hamburger-button">☰</button>
+  <!-- 主内容区 -->
+  <div class="main" id="main">
+    <div class="main-inner">
+      <div class="main-page" id="main-page"></div>
+    </div>
+  </div>
+</div>
+<!-- 引入脚本 -->
+<script src="vendor/jquery-1.11.1.min.js"></script>
+<script src="vendor/marked.min.js"></script>
+<script src="vendor/mdjs.js"></script>
+</body>
+</html>
